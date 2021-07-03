@@ -30,7 +30,7 @@ interval = setInterval(run, 2000)
 }
 
 rightBtn.addEventListener('click', () => {
-    idx--
+    idx++
     changeImage()
     resetInterval()
 })
